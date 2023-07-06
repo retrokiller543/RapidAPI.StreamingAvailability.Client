@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TestClient": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "APIKEY": "346e77a6f3msh163186a7d97775fp1d3a0djsn807dde9d0dce"
+      }
+    }
+  }
+}
