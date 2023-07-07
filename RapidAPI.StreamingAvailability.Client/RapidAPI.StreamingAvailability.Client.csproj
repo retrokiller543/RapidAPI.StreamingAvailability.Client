@@ -4,7 +4,27 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Streaming Availability Client</Title>
+    <Authors>Retrokiller543</Authors>
+    <Company />
+    <Description>A client for the Streaming Availability API</Description>
+    <PackageProjectUrl>https://github.com/Retrokiller543/RapidAPI.StreamingAvailability.Client</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Retrokiller543/RapidAPI.StreamingAvailability.Client</RepositoryUrl>
+    <Copyright>Copyright © 2023 Emil Schütt</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
